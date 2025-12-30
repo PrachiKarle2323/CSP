@@ -1,6 +1,11 @@
 using System;
 
 public class Program{
+    //private
+   int age=23;
+   //protected
+   protected int a=3;
+   //public
    public string name;
    public Program(string n){
        name=n;
@@ -15,5 +20,6 @@ public class Demo{
         Program p=new Program("Prachi");
         p.Method1();
         Console.WriteLine(p.name);
+        // Console.WriteLine(p.age);//err
     }
 }
