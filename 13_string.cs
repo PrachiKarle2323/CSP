@@ -11,8 +11,12 @@ public class Demo{
         
         Console.WriteLine(string.Concat(name,surname));
         string n=$"{name} {surname}";
-        Console.WriteLine(n);
+        
+        
         
         Console.WriteLine(n.Substring(3,6));
+        
+        Console.WriteLine(surname.Replace("a","@"));
+        Console.WriteLine(n.Contains("a"));
     }
 }
